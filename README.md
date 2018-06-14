@@ -1,5 +1,9 @@
-Kate and Michael want to buy a pizza and share it. Depending on the price of the pizza they are going to divide the costs.
+Given a string of words, you need to find the highest scoring word.
 
-If the pizza is less than €5,- Michael is paying. Kate will contribute no more than €10. Michael will pay at least 2/3 of the costs.
+Each letter of a word scores points according to it's position in the alphabet: a = 1, b = 2, c = 3 etc.
 
-How much is Michael going to pay? Remember to calculate the amount in euros, with two decimals if necessary.
+You need to return the highest scoring word as a string.
+
+If two words score the same, return the word that appears earliest in the original string.
+
+All letters will be lowercase and all inputs will be valid.
